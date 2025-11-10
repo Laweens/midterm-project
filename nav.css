@@ -19,32 +19,10 @@
 }
 
 
-.nav-logo {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    padding: 5px 0; /* Small padding to prevent touching edges */
-}
-
-
-.nav-logo a {
-    text-decoration: none;
-    color: white;
-    font-size: 1.5rem;
-    font-weight: bold;
-}
-
-.nav-logo img {
-    height: 40px;
-    width: auto;
-}
-
-/* Navigation Menu */
 .nav-menu {
     list-style: none;
     display: flex;
     gap: 1rem;
-    align-items: center;;
 }
 
 
@@ -59,20 +37,9 @@
     background-color: #172467;
     border-radius: 40px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-.nav-logo img {
-    height: 70px; /* Nearly fills the navbar */
-    width: auto;
-    max-height: 100%; /* Prevent overflow */
+.nav-menu > li > a:visited {
+    color: purple;
 }
+
+
+
