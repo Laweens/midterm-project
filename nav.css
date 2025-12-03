@@ -6,7 +6,7 @@
 }
 
 .navbar {
-    background-color:rgb(97, 13, 29);
+    background-color:rgb(210, 16, 52);
     height: 80px;
 }
 
@@ -38,7 +38,7 @@
     border-radius: 40px;
 }
 .nav-menu > li > a:visited {
-    color: purple;
+    color: rgb(255, 255, 255);
 }
 
 
